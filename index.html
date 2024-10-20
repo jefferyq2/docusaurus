@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html >
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.5.2">
+<link rel="preconnect" href="https://www.google-analytics.com">
+<link rel="preconnect" href="https://www.googletagmanager.com">
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-E5CR2Q1NRE"></script>
+<script>
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-E5CR2Q1NRE', {  });;
+              </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="./katex/katex.min.css" type="text/css"><link rel="stylesheet" href="./assets/css/styles.08406457.css" />
+<script src="./assets/js/main.50ab9326.js" defer></script>
+<script src="./assets/js/runtime~main.0a91c657.js" defer></script>
+</head>
+<body >
+<script>
+(function() {
+    var defaultMode = 'light';
+    var respectPrefersColorScheme = true;
+
+    function setDataThemeAttribute(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+    }
+
+    function getQueryStringTheme() {
+      try {
+        return new URLSearchParams(window.location.search).get('docusaurus-theme')
+      } catch (e) {
+      }
+    }
+
+    function getStoredTheme() {
+      try {
+        return window['localStorage'].getItem('theme-189');
+      } catch (err) {
+      }
+    }
+
+    var initialTheme = getQueryStringTheme() || getStoredTheme();
+    if (initialTheme !== null) {
+      setDataThemeAttribute(initialTheme);
+    } else {
+      if (
+        respectPrefersColorScheme &&
+        window.matchMedia('(prefers-color-scheme: dark)').matches
+      ) {
+        setDataThemeAttribute('dark');
+      } else if (
+        respectPrefersColorScheme &&
+        window.matchMedia('(prefers-color-scheme: light)').matches
+      ) {
+        setDataThemeAttribute('light');
+      } else {
+        setDataThemeAttribute(defaultMode === 'dark' ? 'dark' : 'light');
+      }
+    }
+  })();
+
+(function() {
+  try {
+    const entries = new URLSearchParams(window.location.search).entries();
+    for (var [searchKey, value] of entries) {
+      if (searchKey.startsWith('docusaurus-data-')) {
+        var key = searchKey.replace('docusaurus-data-',"data-")
+        document.documentElement.setAttribute(key, value);
+      }
+    }
+  } catch(e) {}
+})();
+
+(function() {
+  function isDismissed() {
+    try {
+      return localStorage.getItem('docusaurus.announcement.dismiss-189') === 'true';
+    } catch (err) {}
+    return false;
+  }
+  document.documentElement.setAttribute('data-announcement-bar-initially-dismissed', isDismissed());
+})();
+            </script><div id="__docusaurus"></div>
+</body>
+</html>
